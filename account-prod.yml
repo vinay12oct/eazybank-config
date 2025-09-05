@@ -1,1 +1,18 @@
+spring:
+  config:
+    activate:
+      on-profile: "prod"
+
+
+
+build:
+  version: "3.0"
+account:
+  message: "Welcome to EazyBank accounts related Prod APIs"
+  contactDetails:
+    name: "James  -Prod Owner"
+    email: "james@eazybank.com"
+  onCallSupport:
+    -(777)666-1234
+    -(777)623-1234
 
