@@ -63,7 +63,7 @@ build:
   version: "1.0"
 
 account:
-  message: "Welcome to EazyBank accounts related APIs"
+  message: "Welcome to EazyBank accounts related APIs from git using config server"
   contactDetails:
     name: "John Doe - Developer"
     email: "john@eazybank.com"
