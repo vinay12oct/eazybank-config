@@ -17,8 +17,8 @@ spring:
 
   jpa:
     hibernate:
-      ddl-auto: update   # validate schema, avoids accidental table drops in prod
-    show-sql: true        # disable in prod (can enable in dev)
+      ddl-auto: update
+    show-sql: true
     properties:
       hibernate:
         dialect: org.hibernate.dialect.MySQL8Dialect
@@ -29,9 +29,6 @@ spring:
       - application-qa.yml
       - application-prod.yml
 
-  profiles:
-    active: "qa"
-
   jackson:
     serialization:
       write-dates-as-timestamps: false
@@ -40,7 +37,7 @@ logging:
   level:
     root: INFO
     org.springframework.web: INFO
-    com.eazybank: DEBUG   # your package logs
+    com.eazybank: DEBUG
   file:
     name: logs/eazybank-app.log
 
@@ -56,7 +53,7 @@ management:
     db:
       enabled: true
 
-springdoc:   # if you use OpenAPI/Swagger
+springdoc:
   api-docs:
     enabled: true
   swagger-ui:
@@ -73,4 +70,3 @@ account:
   onCallSupport:
     - (555)555-1234
     - (555)523-1234
-
