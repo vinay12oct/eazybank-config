@@ -1,6 +1,6 @@
 
 account:
-  message: "Welcome to EazyBank accounts related APIs from git using config server"
+  message: "Welcome to EazyBank accounts related APIs from git using config server only for contact info"
   contactDetails:
     name: "John Doe - Developer"
     email: "john@eazybank.com"
